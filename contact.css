@@ -1,0 +1,155 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #fff;
+    padding: 20px 10px; 
+}
+
+.logo {
+    width: 12%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-left: 20px; 
+    margin-right: 30px;
+}
+
+ul li a {
+    color: #163269;
+    text-decoration: none;  
+}
+
+ul li a:hover {
+    color: rgb(65, 200, 133);
+}
+
+ul li:first-child a {
+    color: rgb(65, 200, 133);
+}
+
+@font-face {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    src: url(./Police/Mont-ExtraLightDEMO.otf);
+    font-weight: 500;
+    font-size: normal;
+}
+
+ul li a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:18px ;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.banniere {
+    position: relative;
+    height: 700px;
+    background: url('./assets/image-bg-4.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 32);
+   padding: 40px;
+  }
+  
+  @font-face {
+    font-family: 'Mont';
+    src: url(./Police/static/Montserrat-ExtraBold.ttf);
+    font-size: bold;
+  }
+  
+  .addresse {
+    color: rgb(118, 131, 131);
+    font-family: 'mont', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  
+  .reseaux-sociaux img {
+    width: 15px;
+    color: rgb(65, 200, 133);
+    padding: 15px;
+  }
+  
+  .reseaux-sociaux img :hover {
+    color: #fff;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.767); 
+}
+
+.popup-content h2 {
+    font-family: 'mont', sans-serif;
+    font-weight: 700px;
+    font-size: 32px;
+    color: rgb(22, 22, 22);
+}
+
+.popup-content {
+    position: relative;
+    background-color: #fff;
+    margin: 7% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lien-grid{
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+}
+
+.popup-content a {
+    font-family: 'mont', sans-serif;
+    text-decoration: none;
+    margin: 20px;
+    width: 30%;
+    padding: 30px;
+    font-size: 16px;
+    background-color: rgb(16, 70, 92);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.popup-content a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: rgb(65, 200, 133);
+    border-top: solid 2px #868484ce; 
+    border-left: solid 2px #868484ce; 
+    border-right: none;
+    border-bottom: none;
+}

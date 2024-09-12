@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #fff;
+    padding: 20px 10px; 
+}
+
+.logo {
+    width: 12%;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-left: 30px; 
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(65, 200, 133);
+}
+
+ul li:first-child a {
+    color: rgb(65, 200, 133);
+}
